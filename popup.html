@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Time Keeper</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f07a;
+      width: 400px;
+    }
+    .ribbon {
+      background-color: #5dafca;
+      color: #000;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .ribbon img {
+      width: 40px;
+      height: 24px;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 10px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="ribbon">
+    <img src="icon2.png" alt="Icon">
+    <h1>Time Spent on Websites</h1>
+  </div>
+  <ul id="summary"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
